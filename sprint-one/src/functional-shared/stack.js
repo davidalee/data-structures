@@ -22,7 +22,7 @@ stackMethods.push = function(value) {
 stackMethods.pop = function() {
   if( this.count > 0 ) {
     var removed = this.storage[this.count];
-    delete this.storage[this.count];
+  delete this.storage[this.count];
     this.count -= 1;
     return removed;
   }
